@@ -6,7 +6,7 @@ class App extends React.Component {
     const {id,name}=this.props;
     return (
       <div>
-        <h1>{id} {name}</h1>
+        
       </div>
     )
   }
