@@ -1,8 +1,6 @@
+class student extends B{
+    constructor(props){
 
-
-
-function App (name){
-    console.log(`Hello ${name}`);
-};
-
-App("salom");
+    }
+    super(props)
+}
