@@ -25,12 +25,7 @@ class Student extends React.Component{
     }
     return (
       <div>
-        <h1> Hi State {this.state.count}</h1>
-        <h1>Title: {this.state.name}</h1>
-        <button onClick={()=>increment(2)}>+</button>
-        <button onClick={decrement}>-</button>
-        <br />
-        <input onChange={onChange} type="text" />
+        
       </div>
     )
   }
