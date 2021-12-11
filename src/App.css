@@ -1,0 +1,30 @@
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.cont{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.cont input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.cont button{
+width: 80%;
+margin: 0 auto;
+border: 0;
+border-radius: 10px;
+background-color: rgb(63, 214, 63);
+height: 30px;
+font-weight: 900;
+}
+.cont button:active{
+    border: 1px solid black;
+    background-color: chartreuse;
+    box-shadow: 2px 2px 2px black;
+}
